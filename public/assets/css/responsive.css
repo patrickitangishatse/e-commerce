@@ -1,0 +1,289 @@
+/* Responsive */
+@media only screen and (max-width: 600px) {
+    .header 
+    {
+      width: 100%;
+      padding: 20px;
+    }
+    .header .logo
+    {
+      width: 50%;
+      padding: 20px;
+    }
+    .header .logo img
+    {
+    width: 100%;
+    }
+    
+    .header .icon {
+        font-size: 20px;
+        display: block;
+      }
+    .header .toggle
+    {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 75%);
+        font-size: 1.8rem;
+        cursor: pointer;
+        color: #ffc62d;
+    }
+    
+      .display-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background-color: #d8d4d4;
+        z-index: 99;
+      }
+    
+      .display-menu .menu {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+      }
+
+.slick-slider {
+        height: 90vh;
+    }
+
+    .slick-dots {
+        height: 10vh;
+    }
+
+    .content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    .left-column,
+    .right-column {
+        width: 100%;
+    }
+    .left-column img
+    {
+        width: 80%;
+    }
+    .right-column .product-description
+    {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        font-size: 12px;
+        text-align: justify;   
+    }
+    .right-column .product-description ul
+    {
+        margin-top: 0;
+    }
+    /* .right-column .product-description ul li
+    {
+        list-style: none;
+        margin: 15px 0px;
+    } */
+    .right-column .product-description .btn
+    {
+        display: inline-block;
+        padding: 10px 30px;
+        border-radius: 10px;
+        width: 150px;
+        text-align: center;
+        color: #ffc62d;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        margin-top: 20px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .about-flex
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-flex img
+    {
+        display: none;
+    }
+    .about-flex p
+    {
+        width: 100%;
+        text-align: justify;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        margin-top: 20px;
+    }
+    .contact
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .contact .contact-form
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+        align-content: center;
+        padding: 30px 0px;
+        gap: 20px;
+    }
+    .contact-form input[type=text],input[type=email] 
+    {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+    }
+    .contact-form textarea 
+    {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+    .contact-form input[type=submit] 
+    {
+        color: #fff;
+        font-weight: 600;
+        padding: 15px 40px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 15px;
+        text-align: center;
+        background: #ffc62d;
+        transition: all 0.3s ease;
+    }
+    .contact .contact-address
+    {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        gap: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        align-content: flex-start;
+        padding:0 30px;
+        line-height: 30px;
+    }
+    .products
+    {
+        padding: 20px;
+        width: 100%;
+    }
+    .products h1
+    {
+        font-size: 20px;
+    }
+    .products-div
+    {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .product-card
+    {
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .product-card img
+    {
+        width: 100%;
+    }
+    .product-description
+    {
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 10px;
+    }
+    .form-container
+    {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+    }
+    .form-container h1
+    {
+        font-size: 30px;
+    }
+    .form-container p
+    {
+        font-size: 15px;
+    }
+    .form-container form
+    {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    }
+    .form-container form input[type=text],input[type=password],input[type=email]
+    {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    .form-container form input[type=submit]
+    {
+        width: 100%;
+        padding: 12px;
+        border: none;
+        border-radius: 4px;
+        box-sizing: border-box;
+        background: #ffc62d;
+        color: #fff;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    .footer-container
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+    }
+    .footer-container .footer-logo p
+    {
+        font-size: 15px;
+    }
+}
+  
